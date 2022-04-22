@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 RUN apt update
 RUN apt dist-upgrade -y
 RUN DEBIAN_FRONTEND=noninteractive apt install -y curl build-essential libssl-dev pkg-config rollup
